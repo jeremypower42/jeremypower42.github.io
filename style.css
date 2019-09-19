@@ -9,3 +9,13 @@ body {
     font-style: italic;
     color:red;
   }
+
+  .picture{
+
+  background-color: white;
+  position: relative;
+  width: 110px;
+  border-style: solid;
+  margin-left: 800px;
+  box-shadow: 2px 2px;
+  }
