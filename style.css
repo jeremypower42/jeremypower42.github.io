@@ -10,12 +10,23 @@ body {
     color:red;
   }
 
-  .picture{
-
-  background-color: white;
-  position: relative;
-  width: 110px;
-  border-style: solid;
-  margin-left: 800px;
-  box-shadow: 2px 2px;
+ header{
+     
+    max-width: 100%;
+    height: 55px;
+    background-color: #fca331;
+    padding-top: 10px;
+    padding-left: 15px;
+  
   }
+
+  footer {
+  
+    max-width: 100%;
+    height: 55px;
+    background-color: #fca331;
+    padding-top: 10px;
+    padding-left: 15px;
+      
+  }
+  
