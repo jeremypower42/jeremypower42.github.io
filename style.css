@@ -25,12 +25,10 @@ body {
   
     border-radius: 15px;
     max-width: 100%;
-    height: 55px;
+    height: 75px;
     background-color: #928677;
     padding-top: 10px;
     padding-left: 15px;
-    text-justify: center;
-      
   }
   
 #name{
@@ -41,8 +39,9 @@ body {
 }
 img{
 
-margin-left: 800px;
-margin-top: -75px;
+position: absolute;
+top: 40px;
+right: 50px;
 width: 100px;
 height: 150px;
 
@@ -51,11 +50,12 @@ height: 150px;
 hr{
 
   display: black;
-  margin-block-start: auto;
-  margin-inline-end:  auto;
-  overflow:  hidden;
-  border-width: 2pt;
+  border-width: 1pt;
 
+}
 
+#text{
 
+  text-align: center;
+  
 }
