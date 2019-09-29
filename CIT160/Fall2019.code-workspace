@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "CS124-BYUI-FA19",
+			"path": "C:\\Users\\jerem\\CS124-BYUI-FA19"
+		},
+		{
+			"name": "jeremypower42.github.io",
+			"path": "C:\\Users\\jerem\\OneDrive\\Desktop\\jeremypower42.github.io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jeremypower42.github.io",
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+}

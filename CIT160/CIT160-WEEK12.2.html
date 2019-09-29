@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CIT160-WEEK 12</title>
+    <meta charset="utf-8">
+  
+  <script>
+      
+    function getMiddle(list){
+        
+	  if(list.length % 2 == 0){
+	  
+		var middle1 = list.length / 2;
+		var middle2 = middle1 - 1;
+		
+		var middle = (list[middle1] + list[middle2]) / 2;
+		return middle;
+		
+		} 
+		
+		else {
+		var middle1 = Math.floor(list.length / 2);
+		var num = list[middle1];
+		
+		return num;
+		
+		}
+		
+	}
+		
+	function display(){
+	
+		var list = [12, 4, 8, 15, 17, 5, 20, 11];
+		
+		var answer = getMiddle(list);
+
+		document.getElementById('output').innerHTML = answer;
+
+
+      
+    }  
+    
+  </script>
+</head>  
+  
+ <body>
+    
+  <button class = "button" onclick = "display()">Click Me!</button>
+   
+  <div id = "output"></div>
+    
+  </body>
+</html>
