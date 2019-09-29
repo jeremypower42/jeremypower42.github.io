@@ -1,0 +1,79 @@
+body{
+    font: size 20;
+    font-family: 'Roboto Slab', serif;
+    margin:16px;
+}
+
+h1{
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height:25px;
+    
+}
+
+
+section{
+    background-color: #92a2cc;
+    padding:15px;
+    border-style:hidden;
+    border-radius:5px;
+    
+}
+
+.heading{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    
+}
+/*mobile view or baseline views*/
+
+main{
+     margin: auto;
+}
+ h2, h3
+ {  
+     
+  color: #333;
+       
+  color: #333;
+     
+ }
+
+
+ .sites{
+
+     margin:auto;
+     display:flex;
+     justify-content: center;
+     align-items: flex-end;
+ }
+
+
+ .img{
+
+    width: 400px;
+     margin:auto;
+     display:flex;
+     justify-content: center;
+ }
+
+/*tablet view*/
+@media only screen and (max-width:1250px)
+{
+    main{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* Desktop view*/
+@media only screen and (max-width:800px)
+{
+    main{
+     grid-template-columns: 1fr;
+    }
+}
