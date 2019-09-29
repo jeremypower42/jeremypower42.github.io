@@ -24,18 +24,13 @@ section{
     
 }
 
-.heading{
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    
-}
-/*mobile view or baseline views*/
-
 main{
      margin: auto;
 }
  h2, h3
- {  
+ { 
+
+    text-align: center;    
      
   color: #333;
        
@@ -53,7 +48,8 @@ main{
  }
 
 
- .img{
+ 
+img{
 
     width: 400px;
      margin:auto;
@@ -61,19 +57,16 @@ main{
      justify-content: center;
  }
 
-/*tablet view*/
-@media only screen and (max-width:1250px)
-{
-    main{
-    grid-template-columns: 1fr 1fr;
-    }
-}
+button {
 
-
-/* Desktop view*/
-@media only screen and (max-width:800px)
-{
-    main{
-     grid-template-columns: 1fr;
-    }
-}
+    align-items: center;
+    display: flex;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    background-color: #ccbc92;
+    border: black;
+    border-radius: 15px;
+  }
+  
