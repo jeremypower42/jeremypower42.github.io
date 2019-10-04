@@ -3,13 +3,13 @@
 body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
-	color: whitesmoke;
+	color: #2A2B2E;
 }
 
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #333;
+	background-color: #76AFF4;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -26,7 +26,7 @@ footer {
 }
 
 nav {
-	background-color: grey;
+	background-color: #F5FFC6;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
@@ -38,7 +38,7 @@ nav ul {
 }
 nav li a {
 	display: block;
-	color: #fff;
+	color: #2A2B2E;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -56,7 +56,7 @@ footer {
 
 #mainpage{
 
-	background-color: rgb(32, 30, 30);
+	background-color: #F2F5EA;
 }
 
 /* Tablet Views ******************************/
