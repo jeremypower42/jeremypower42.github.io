@@ -7,7 +7,7 @@ body {
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #76AFF4;
+	background-color: #9e9c63;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -24,7 +24,7 @@ footer {
 }
 
 nav {
-	background-color: #F5FFC6;
+	background-color: #777068;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
@@ -43,8 +43,8 @@ nav li a {
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
+	background-color: #cea68b
+	
 }
 
 footer {
@@ -54,7 +54,16 @@ footer {
 
 #mainpage{
 
-	background-color: #F2F5EA;
+	background-color: #e6d4c6;
+}
+
+#colorimg{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 10px;
 }
 
 /* Tablet Views ******************************/
