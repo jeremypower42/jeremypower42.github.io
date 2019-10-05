@@ -55,6 +55,7 @@ footer {
 #mainpage{
 
 	background-color: #e6d4c6;
+	padding-bottom: 25px;
 }
 
 #colorimg{
@@ -64,6 +65,12 @@ footer {
 	margin-right: auto;
 	width: 50%;
 	padding-top: 10px;
+}
+
+#logo{
+
+	width: 150px;
+	height: auto;
 }
 
 /* Tablet Views ******************************/
