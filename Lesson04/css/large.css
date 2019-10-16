@@ -1,24 +1,19 @@
-@media (min-width: 32.5em){
-    @media only screen and (min-width: 32.5em){
+@charset "utf-8";
+
+@media (min-width: 37.5em){
+    @media only screen and (min-width: 37.5em){
     
-    h1 {
-        font-size: 2.5rem;
-    }
-    
-    h2 {
-    
-        font-size: 1.5rem;
-    }
-    
-    header, footer{
-    
-        border-radius: 10px;
-    
-      }
-    header img {
-    
-        border-radius: 0 10px 0 0;
-        box-shadow: 0 0 30px #444;
-        float: right;
-    }
-    
+nav button {display: none;}
+
+nav ul.hide{display: block;}
+
+nav ul {margin-left: 2px;}
+
+nav u li{float: left;}
+
+nav ul li a {
+
+    border: none;
+    border-right:1 px rbga(0,0,0,0.3);
+    padding: .6rem 1 rem;
+}
