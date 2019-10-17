@@ -1,20 +1,27 @@
 @charset "utf-8";
 
-@media (min-width: 37.5em){
-    @media only screen and (min-width: 37.5em){
-    
-nav button {display: none;}
+@media (min-width: 37.5em) {
+    @media only screen and (min-width: 37.5em) {
 
-nav ul.hide{display: block;}
+        nav button {
+            display: none;
+        }
 
-nav ul {margin-left: 2px;}
+        nav ul.hide {
+            display: block;
+        }
 
-nav u li{float: left;}
+        nav ul {
+            margin-left: 2px;
+        }
 
-nav ul li a {
+        nav u li {
+            float: left;
+        }
 
-    border: none;
-    border-right:1 px rbga(0,0,0,0.3);
-    padding: .6rem 1 rem;
-}
+        nav ul li a {
 
+            border: none;
+            border-right: 1 px rbga(0, 0, 0, 0.3);
+            padding: .6rem 1 rem;
+        }

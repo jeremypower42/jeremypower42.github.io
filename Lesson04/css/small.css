@@ -17,11 +17,11 @@ footer {
 	padding: 10px;
 }
 
-header img{
+header img {
 
 	position: absolute;
 	margin-left: auto;
-	
+
 }
 
 header,
@@ -34,11 +34,17 @@ footer {
 }
 
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 
 	font-family: "Roboto", sans-serif;
 	color: #36454f;
 }
+
 nav {
 	background-color: #777068;
 	text-align: center;
@@ -70,7 +76,7 @@ nav a:hover {
 
 main {
 
-	background-color: #fff; 
+	background-color: #fff;
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
@@ -83,7 +89,7 @@ main article {
 	border: 1px solid #36454f;
 	padding: 0 1rem;
 	background-color: #e6d4c6;
-	
+
 }
 
 footer {
@@ -97,7 +103,7 @@ footer {
 	margin-bottom: 10px;
 }
 
-article p{
+article p {
 
 	line-height: 200%;
 	font-size: 16px;
@@ -111,28 +117,28 @@ article p{
 	width: 100%;
 	margin-top: 15px;
 	margin-bottom: 5px;
-	
-	
-  }
 
-  #logo{
+
+}
+
+#logo {
 
 	width: 150px;
 	height: auto;
 	display: flex;
 	margin-left: -1300px;
 
-  }
+}
 
-  .hero{
+.hero {
 
-	border:1px solid;
+	border: 1px solid;
 	max-width: 700px;
 	background-color: wheat;
 
 }
 
-div{
+div {
 
 	border: 1px solid;
 	background-color: wheat;
@@ -214,17 +220,21 @@ nav {
 	justify-content: center;
 	box-shadow: 0 2px 15px gray;
 }
+
 .navigation {
 	list-style: none;
 	text-align: center;
 	padding: 0;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
 	color: #000;
@@ -232,6 +242,7 @@ nav {
 	text-align: center;
 	text-decoration: none;
 }
+
 .navigation a:hover {
 	background-color: #bbb;
 	color: #36454f;
@@ -250,13 +261,16 @@ nav {
 	.navigation {
 		display: flex;
 	}
+
 	.navigation li:first-child {
 		display: none;
 	}
+
 	.navigation li {
 		display: block;
 		flex: 1 1 100%;
 	}
+
 	.navigation li a {
 		color: #000;
 	}
