@@ -121,14 +121,40 @@ footer a {
 }
 
 main div {
-
-	border: 1px solid;
-	background-color: wheat;
 	align-content: center;
 	text-align: center;
 	margin: 10px auto;
 	width: 95%;
 }
+
+h2 {
+	text-align: center;
+  }
+  
+  .herodiv{
+	margin: 10px auto;
+	position: relative;
+	width: 800px;
+	height: 300px;
+	}
+  
+  .hero-ph{
+	margin: 10px auto;
+	background-color: #eee;
+	border: 1px solid #333;
+	width: 98%;
+	height:280px;
+  }
+  
+  .weathersummary{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background: radial-gradient(wheat, navy);
+	border: 1px solid green;
+	padding: 15px;
+	box-shadow: 0 0 30px #777;
+  }
 
 
 /* Tablet Views ******************************/
