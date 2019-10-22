@@ -1,61 +1,60 @@
-body{
-    font: size 20;
+body {
+    font-size 16px;
     font-family: 'Roboto Slab', serif;
-    margin:16px;
+    margin: 16px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
-main{
+
+main {
+
     display: grid;
     grid-gap: 18px;
-    grid-template-columns: 1fr 1fr 1fr;
-    line-height:25px;
-    
+    line-height: 25px;
+
 }
 
 
-section{
+section {
     background-color: #92a2cc;
-    padding:15px;
-    border-style:hidden;
-    border-radius:5px;
-    
+    padding: 15px;
+    border-style: hidden;
+    border-radius: 5px;
+
 }
 
-main{
-     margin: auto;
+main {
+    margin: auto;
 }
- h2, h3
- { 
 
-    text-align: center;    
-     
-  color: #333;
-       
-  color: #333;
-     
- }
+h2,
+h3 {
+
+    text-align: center;
+    color: #333;
+
+}
 
 
- .sites{
+.sites {
 
-     margin:auto;
-     display:flex;
-     justify-content: center;
-     align-items: flex-end;
- }
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
 
- 
-img{
 
-    width: 400px;
-     margin:auto;
-     display:flex;
-     justify-content: center;
- }
+img {
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
 
 button {
 
@@ -68,5 +67,20 @@ button {
     background-color: #ccbc92;
     border: black;
     border-radius: 15px;
-  }
-  
+}
+
+@media only screen and (max-width:800px) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media only screen and (max-width:500px) {
+
+    main {
+        grid-template-columns: 1fr;
+    }
+}
