@@ -131,14 +131,14 @@ h2 {
 	text-align: center;
   }
   
-  .herodiv{
+.herodiv{
 	margin: 10px auto;
 	position: relative;
 	width: 800px;
 	height: 300px;
 	}
   
-  .hero-ph{
+.hero-ph{
 	margin: 10px auto;
 	background-color: #eee;
 	border: 1px solid #333;
@@ -146,13 +146,14 @@ h2 {
 	height:280px;
   }
 
-  .hero-ph img{
+.hero-ph img{
 
 	width: 100%;
 	height: 280px;
   }
 
-	.weathersummary{
+.weathersummary{
+
 	opacity: 0.5;
 	position: absolute;
 	top: 20px;
@@ -163,8 +164,107 @@ h2 {
 	box-shadow: 0 0 30px #777;
   }
   
+.fiveday{
 
+	
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	background: radial-gradient(wheat, navy);
+	border: 1px solid;
+	padding: 15px;
+	text-align: center;
+	width: 80%;
+	height: 30px;
 
+}
+
+.fiveday2{
+
+	position: absolute;
+	
+	top: 80px;
+	left: 20px;
+	background: radial-gradient(wheat, navy);
+	border: 1px solid;
+	padding: 15px;
+	text-align: center;
+	width: 80%;
+	height: 30px;
+
+}
+
+.forcast{
+
+	margin: 10px auto;
+	position: relative;
+	width: 800px;
+	height: 150px;
+	border: 1px solid;
+	
+}
+
+.article{
+
+	margin: 10px auto;
+	position: relative;
+	width: 800px;
+	height: 150px;
+	border: 1px solid;
+
+}
+
+.article1{
+
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	background: radial-gradient(wheat, navy);
+	border: 1px solid;
+	padding: 15px;
+	text-align: center;
+	width: 150px;
+	height: 100px;
+	float: right;
+
+}
+
+.mapcontact{
+
+	margin: 10px auto;
+	position: relative;
+	width: 800px;
+	height: 150px;
+	border: 1px solid;
+
+}
+
+.map{
+
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	background: radial-gradient(wheat, navy);
+	border: 1px solid;
+	padding: 15px;
+	text-align: center;
+	width: 150px;
+	height: 100px;
+	float: right;
+}
+
+.contact{
+
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	background: radial-gradient(wheat, navy);
+	border: 1px solid;
+	padding: 15px;
+	text-align: center;
+	width: 150px;
+	height: 100px;
+}
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */
