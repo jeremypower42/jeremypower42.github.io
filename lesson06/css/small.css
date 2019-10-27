@@ -14,6 +14,7 @@ header img {
 
 	width: 125px;
 	height: auto;
+	margin: 0 2% 0 0;
 
 }
 
@@ -39,7 +40,7 @@ nav,
 main,
 footer {
 
-	width: 100%;
+	width: 98%;
 	margin: 0 auto;
 	align-content: center;
 }
@@ -81,7 +82,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	justify-content: space-evenly;
-	width:	100%;
+	width:	98%;
 }
 
 nav li a {
@@ -136,7 +137,7 @@ h2 {
 .herodiv{
 	margin: 10px auto;
 	position: relative;
-	width: 800px;
+	width: 98%;
 	height: 300px;
 	}
   
@@ -175,7 +176,7 @@ h2 {
 	background: radial-gradient(wheat, 	#4E5D74);
 	border: 1px solid;
 	padding: 15px;
-	text-align: center;
+	align-content: center;
 	width: 80%;
 	height: 30px;
 
@@ -190,7 +191,7 @@ h2 {
 	background: radial-gradient(wheat,  #4E5D74);
 	border: 1px solid;
 	padding: 15px;
-	text-align: center;
+	align-content: center;
 	width: 80%;
 	height: 30px;
 
@@ -200,7 +201,7 @@ h2 {
 
 	margin: 10px auto;
 	position: relative;
-	width: 800px;
+	width: 98%;
 	height: 150px;
 	border: 1px solid;
 	
@@ -210,7 +211,7 @@ h2 {
 
 	
 	margin: 10px auto;
-	width: 800px;
+	width: 98%;
 	height: auto;
 	border: 1px solid;
 
@@ -218,15 +219,21 @@ h2 {
 
 .photo{
 
-	width:125px;
-	margin: 0 0 0 2%;
+	width: 40%;
 	float: right;
+	margin: 0;
 }
+
+.photo img{
+
+	width: 100%;
+}
+
 .mapcontact{
 
 	margin: 10px auto;
 	position: relative;
-	width: 800px;
+	width: 98%;
 	height: 150px;
 	border: 1px solid;
 
@@ -243,7 +250,7 @@ h2 {
 	text-align: center;
 	width: 150px;
 	height: 100px;
-	float: right;
+	
 }
 
 .contact{
@@ -258,6 +265,13 @@ h2 {
 	width: 150px;
 	height: 100px;
 }
+
+.clearfic:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Menu Examples */

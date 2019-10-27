@@ -20,12 +20,16 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
 
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/friday.js"></script>
+    <script src="js/windchill.js"></script>
+
 </head>
 
-<header>
+<header class="clearfix">
 
     <div>
-        <h1>What to Wear</h1>
+        <h1>Weather Clothing</h1>
         <h3>Don't Get Caught Without Your Pants On</h3>
     </div>
     
@@ -51,11 +55,15 @@
     <div class="herodiv">
         <div class="hero-ph">
 
+            <img src="images/cit230_image_franklinOriginal.jpeg" alt="mountian range"
             
-            <img src="images/cit230_image_franklinOriginal800.jpg" alt="mountian range">
+            srcset="images/cit230_image_franklinOriginal800 800px,
+             images/cit230_image_franklinOriginal500 500px, 
+             images/cit230_image_franklinOriginal250 250px">
+            
+            >
              
-           
-
+        
         </div>
         <section class="weathersummary">
 
@@ -82,13 +90,13 @@
 
     </div>
 
-    <article class="article">
+    <div class="article">
 
         <h3>Article</h3>
-        <figure class="photo">
+        
+        <div class="photo">
         <img src="images/storm.jpg"  alt= "storm">
-        </figure>
-
+        </div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -104,9 +112,7 @@
             id est laborum.
         </p>
 
-        
-
-        </article>
+    </div>
 
     <div class="mapcontact">
 
@@ -125,19 +131,9 @@
 
 <footer>
 
-    <p>&copy; <script>
-            document.write(new Date().getFullYear());
+    <p>&copy; <script src="js/date.js">
         </script> | Jeremy Power | Utah |
         <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-
-    <script src="js/toggleMenu.js"></script>
-    <script src="js/date.js"></script>
-    <script src="js/friday.js"></script>
-    <script src="js/windchill.js"></script>
-
-
-
-
 
     <iframe src="http://free.timeanddate.com/clock/i6zodapw/n220/tct/pct" frameborder="0" width="115" height="19"
         allowTransparency="true"></iframe>
