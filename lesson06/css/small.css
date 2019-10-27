@@ -127,6 +127,8 @@ main div {
 	width: 95%;
 }
 
+
+
 h2 {
 	text-align: center;
   }
@@ -206,29 +208,20 @@ h2 {
 
 .article{
 
+	
 	margin: 10px auto;
-	position: relative;
 	width: 800px;
-	height: 150px;
+	height: auto;
 	border: 1px solid;
 
 }
 
-.article1{
+.photo{
 
-	position: absolute;
-	top: 40px;
-	right: 40px;
-	background: radial-gradient(wheat,  	#4E5D74);
-	border: 1px solid;
-	padding: 15px;
-	text-align: center;
-	width: 150px;
-	height: 100px;
+	width:125px;
+	margin: 0 0 0 2%;
 	float: right;
-
 }
-
 .mapcontact{
 
 	margin: 10px auto;
