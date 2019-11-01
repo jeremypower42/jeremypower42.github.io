@@ -1,9 +1,21 @@
 img {
+
     display: grid;
     height: 400px;
     width: 300px;
     background-color: coral;
     border: 1px solid black;
     grid-gap: 20px;
+
+}
+
+picture img[data-src]{
+    filter: blur(o.2em);
+}
+
+picture img{
+    
+filter:blur(0em);
+transition: filter 0.5s;
 
 }
