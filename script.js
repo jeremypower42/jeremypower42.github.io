@@ -34,7 +34,7 @@ let monthName  = months[d.months()];
 let fullDate = dayName + ", " + monthName + " " + d.getDate()
 + ", " + d.getFullYear();
 
-document.getElementById("currentdate").innerHTML = fullDate;
+document.getElementById("currentyear").innerHTML = getFullYear();
 
 try {
     let options = {
