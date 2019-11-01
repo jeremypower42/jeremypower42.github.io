@@ -20,8 +20,7 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/medium.css">
 
-    <script src="js/toggleMenu.js"></script>
-    <script src="js/friday.js"></script>
+    
     
 
 </head>
@@ -131,13 +130,21 @@
 
 <footer>
 
-    <p>&copy; <script src="js/date.js">
-        </script> | Jeremy Power | Utah |
-        <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+        <p>&copy; <script>
+                document.write(new Date().getFullYear());
+            </script> | Jeremy Power | Utah |
+            <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+    
+        <iframe src="http://free.timeanddate.com/clock/i6zodapw/n220/tct/pct" frameborder="0" width="115" height="19"
+            allowTransparency="true"></iframe>
+    
+    </footer>
 
-    <iframe src="http://free.timeanddate.com/clock/i6zodapw/n220/tct/pct" frameborder="0" width="115" height="19"
-        allowTransparency="true"></iframe>
-
-</footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/friday.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/year.js"></script>
 
 </html>
