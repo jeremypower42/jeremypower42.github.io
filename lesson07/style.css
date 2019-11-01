@@ -1,7 +1,9 @@
-img{
-
-    height: 300px;
-    width: auto;
+img {
+    display: grid;
+    height: 400px;
+    width: 300px;
     background-color: coral;
-    
+    border: 1px solid black;
+    grid-gap: 20px;
+
 }
