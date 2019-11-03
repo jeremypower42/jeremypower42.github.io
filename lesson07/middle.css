@@ -1,24 +1,32 @@
-@media (min-width: 32.5em){
-    @media only screen and (min-width: 32.5em){
-    
-    h1 {
-        font-size: 2.5rem;
+@media only screen and (max-width:850px)
+{
+    .navigation li, #forecast-section, #forecast-header, #contact-section img{
+        display: none;
     }
-    
-    h2 {
-    
-        font-size: 1.5rem;
+    h1{
+        font-size: 25px;
     }
-    
-    header, footer{
-    
-        border-radius: 10px;
-    
-      }
-    header img {
-    
-        border-radius: 0 10px 0 0;
-        box-shadow: 0 0 30px #444;
-        float: right;
+    #header-img{
+        width:100px;
     }
-    
+    #slogan{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .responsive li{
+        display:block;
+        padding:5px;
+    }
+    ul.responsive{
+        flex-direction: column;
+        text-align:center;
+        padding: 5px;
+    }
+   .grid-container{
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 180px 180px 180px 180px; 
+   }
+
+}
