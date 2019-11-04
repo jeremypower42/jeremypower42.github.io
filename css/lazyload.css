@@ -11,7 +11,7 @@ h1{
 
 }
 
-h1, picture{
+h1, picture, figure{
 
     margin:25px;
     display: grid;
@@ -29,5 +29,20 @@ picture img{
     height: 400px;
     filter: blur(0em);
     transition: filter 0.5s;
+
+} 
+
+figure img{
+
+    max-width: 300px;
+    height: 400px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    
+}
+
+figure img[data-src] {
+
+    filter: blur(0.2em);
 
 }

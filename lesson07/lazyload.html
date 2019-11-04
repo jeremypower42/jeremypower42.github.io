@@ -7,7 +7,12 @@
     <title>Lazy Load Images</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta description="lazy loading images for CIT230 at BYUI">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    
+    <link rel="stylesheet" href="lazyload.css">
+    <link rel="stylesheet" href="large.css">
+    <link rel="stylesheet" href="middle.css">
+    <link rel="stylesheet" href="small.css">
+
 </head>
 
 <body>
@@ -15,8 +20,10 @@
     <header>
         <h1>Lazy Load Images</h1>
     </header>
-
     <main>
+
+        <h2>Weather Gallery</h2>
+
         <picture>
             <img src="images/placeholder.png" data-src="images/animal-branch-cat-35888.jpg" loading="lazy"
                 alt="fall picture">
@@ -37,11 +44,14 @@
             <img src="images/placeholder.png" data-src="images/close-up-creepy-dark-619418.jpg" loading="lazy"
                 alt="fall picture">
         </picture>
+
     </main>
+
+    
     <footer>
 
     </footer>
-    <script src="script.js" defer></script>
+    <script src="lazyload.js" defer></script>
 </body>
 
 </html>
