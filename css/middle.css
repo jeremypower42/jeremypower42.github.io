@@ -3,18 +3,12 @@
     .navigation li, #forecast-section, #forecast-header, #contact-section img{
         display: none;
     }
-    h1{
-        font-size: 25px;
-    }
-    #header-img{
+   
+    header img{
         width:100px;
-    }
-    #slogan{
-        font-size: 10px;
-    }
-    h2{
-        font-size: 22px;
-    }
+    
+}
+
     .responsive li{
         display:block;
         padding:5px;
@@ -24,9 +18,10 @@
         text-align:center;
         padding: 5px;
     }
-   .grid-container{
-    grid-template-columns: 280px 280px;
-    grid-template-rows: 180px 180px 180px 180px; 
+   .pictures{
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 300px 300px 300px;
+    padding: 20px; 
    }
 
 }
