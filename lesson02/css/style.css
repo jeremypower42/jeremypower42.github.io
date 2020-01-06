@@ -11,22 +11,21 @@ h1 {
 main {
 
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 18px;
     line-height: 25px;
+    margin: auto;
 
 }
 
 
 section {
+
     background-color: #92a2cc;
     padding: 15px;
     border-style: hidden;
     border-radius: 5px;
 
-}
-
-main {
-    margin: auto;
 }
 
 h2,
@@ -36,17 +35,6 @@ h3 {
     color: #333;
 
 }
-
-
-.sites {
-
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-
 
 img {
 
@@ -58,14 +46,14 @@ img {
 
 button {
 
-    align-items: center;
-    display: flex;
+    display: block;
+    margin: 0 auto;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
     color: #333;
     background-color: #ccbc92;
-    border: black;
+    border: 1px solid;
     border-radius: 15px;
 }
 

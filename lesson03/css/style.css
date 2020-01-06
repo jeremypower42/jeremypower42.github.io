@@ -1,0 +1,54 @@
+header img { 
+    min-width: 35px;
+    padding: 20px;
+    
+ }
+
+body 
+  { 
+    max-width:800px;   
+    margin: auto;
+    
+   }
+
+
+header 
+  {
+
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #3E5C76;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+  }
+
+
+footer 
+  {
+    text-align:center;
+    background-color: #3E5C76;
+    color:white;
+    font-family: 'Be Vietnam', sans-serif;
+    padding-top:7px;
+    padding-bottom:7px;
+
+  }
+
+ main {
+
+    padding: 10px;;
+
+ }
+
+ header h1{
+
+    padding: 75px;
+ }
+
+  h1
+  {
+      padding-top:10px;
+      margin: 0px;
+  }
