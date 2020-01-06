@@ -25,10 +25,11 @@ header {
 header img {
 
   float: right;
-  padding: 10px 0px 10px 0px
+  padding: 0px ;
+
 }
 
-footer {
+footer { 
 
   text-align: center;
   background-color: #3E5C76;
