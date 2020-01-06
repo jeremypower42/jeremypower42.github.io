@@ -14,8 +14,6 @@ body {
 
 header {
 
-
-  flex-direction: row-reverse;
   background-color: #3E5C76;
   color: white;
   padding: 15px ;
@@ -27,6 +25,8 @@ header {
 header img {
 
   float: right;
+  padding-top: 0px;
+  padding-right: 0px;
 }
 
 footer {
@@ -49,4 +49,13 @@ main {
 h1 {
   padding-top: 10px;
   margin: 0px;
+}
+
+footer a{
+  color: rgb(221, 188, 188);
+}
+
+ul a {
+
+  color: #3E5C76;
 }
