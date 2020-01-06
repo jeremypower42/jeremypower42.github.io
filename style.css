@@ -14,14 +14,20 @@ body {
 
 header {
 
+
   flex-direction: row-reverse;
   background-color: #3E5C76;
   color: white;
-  padding: 15px;
+  padding: 15px ;
   text-align: center;
+  height: 50px;
 
 }
 
+header img {
+
+  float: right;
+}
 
 footer {
 
