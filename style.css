@@ -19,6 +19,7 @@ header {
   padding: 15px ;
   text-align: center;
   height: 50px;
+  border-radius: 10px;
 
 }
 
@@ -37,6 +38,7 @@ footer {
   font-family: 'Be Vietnam', sans-serif;
   padding-top: 7px;
   padding-bottom: 7px;
+  border-radius: 10px;
 
 }
 
